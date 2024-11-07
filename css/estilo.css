@@ -62,19 +62,19 @@ body {
 }
 
 .imagenes-menu {
-    display: flex;            /* Utiliza flexbox */
-    justify-content: space-between;  /* Centra horizontalmente */
-    align-items: center;      /* Centra verticalmente si es necesario */
-    flex-wrap: wrap;         /* Permite que las imágenes se envuelvan en varias líneas si es necesario */
-    margin: 20px 0;         /* Agrega margen arriba y abajo del contenedor */
+    display: flex;            
+    justify-content: space-between;  
+    align-items: center;      
+    flex-wrap: wrap;         
+    margin: 20px 0;        
 }
 
 .imagenes {
-    width: 300px;           /* Ajusta el ancho */
-    height: 300px;          /* Ajusta la altura */
-    object-fit: cover;      /* Mantiene la proporción de la imagen */
-    border-radius: 10px;    /* Esquinas redondeadas (opcional) */
-    margin: 10px;           /* Espacio entre las imágenes */
+    width: 300px;           
+    height: 300px;          
+    object-fit: cover;    
+    border-radius: 10px;    
+    margin: 10px;           
 }
 
 .parrafo {
@@ -107,8 +107,8 @@ p {
 }
 .listado{
     display: grid;
-      grid-template-columns: repeat(3, 5fr); /* Crea 3 columnas de igual tamaño */
-      gap: 20px; /* Espacio entre los elementos */
+      grid-template-columns: repeat(3, 5fr); 
+      gap: 20px; 
       list-style-type: none;
       
 }
